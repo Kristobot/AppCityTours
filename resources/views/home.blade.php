@@ -28,13 +28,13 @@
                     <div class="container">
                         <div class="logo">
                             <i class='bx bx-sun'></i>
-                            Logo
+                            Viajes CityTours
                         </div>
                         <div class="links">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Passeios</a></li>
-                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Login</a></li>
+                                <li><a href="#">Paquetes</a></li>
+                                <li><a href="#">Info</a></li>
                             </ul>
                             <div class="menu-mobile">
                                 <i class='bx bx-menu'></i>
@@ -46,22 +46,22 @@
             <div class="container">
                 <div class="collums">
                     <div class="collum-left">
-                        <h1>EmpresaTur</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, repellendus provident. Soluta, id quis quas omnis, sed pariatur in officia perferendis, odit ea dolores minus accusamus vitae! Assumenda vero asperiores, tempore, incidunt consequuntur commodi non beatae ullam nulla blanditiis dolores dolore adipisci saepe consectetur ex est, maxime rem quos officiis.</p>
+                        <h1>CityTours</h1>
+                        <p>Viajes Experiencia Global es una empresa líder en el sector del turismo, dedicada a proporcionar experiencias inolvidables a sus clientes alrededor del mundo. Con una amplia gama de servicios que van desde la planificación de itinerarios personalizados hasta la organización de paquetes turísticos completos, nos esforzamos por ofrecer viajes que superen las expectativas de nuestros clientes. Nuestro equipo de expertos en destinos está comprometido con la excelencia en el servicio al cliente y se dedica a garantizar que cada viaje sea una aventura única y memorable.</p>
                         <button>comprar</button>
                     </div>
                     <div class="collum-right">
                         <div class="card card1">
-                            <h5>PIPA DE BUGGY</h5>
+                            <h5>AREQUIPA</h5>
                         </div>
                         <div class="card card2">
-                            <h5>JENIPABÚ DE BUGGY</h5>
+                            <h5>PARACAS</h5>
                         </div>
                         <div class="card card3">
-                            <h5>MARACAJAÚ DE BUGGY </h5>
+                            <h5>OXAPAMPA</h5>
                         </div>
                         <div class="card card4">
-                            <h5>PASSEIO DAS ÁGUAS</h5>
+                            <h5>CUZCO</h5>
                         </div>
                     </div>
                 </div>
