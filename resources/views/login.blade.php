@@ -53,15 +53,16 @@
             <label for="destination">Login</label>
             <input
               type="email"
-              name="destination"
+              name="email"
               id="destination"
               placeholder=""
               required
+              
             />
           </div>
           <div class="form__group">
             <label for="date">Contraseña</label>
-            <input type="password" name="date" id="date" placeholder="" required />
+            <input type="password" name="password" id="date" placeholder="" required />
           </div>
           <button type="submit">Iniciar sesion</button>
         </form>
