@@ -22,26 +22,27 @@
 		<div class="tours">
 			<div class="places">
 				<h2>Paquete 1</h2>
-				<img src="img/paquete 1.png" style="width: 300px; height: 250px; border-radius: 30px;">
+				<div class="package-img package-1"></div>
 				<br>
 				<br>
 				<a href="#">Promocion 15% </a>
 			</div>
 			<div class="places">
 				<h2>Paquete 2</h2>
-				<img src="img/paquete 2.png" style="width: 300px; height: 250px; border-radius:30px;">
+				<div class="package-img package-2"></div>
 				<br>
 				<br>
 				<a href="#">Promocion 20% </a>
 			</div>
 			<div class="places">
 				<h2>Paquete 3</h2>
-				<img src="img/paquete 3.png" style="width: 300px; height: 250px; border-radius: 30px;">
+				<div class="package-img package-3"></div>
 				<br>
 				<br>
 				<a href="#">Promocion 25% </a>
 			</div>
 		</div>
+		
 	</div>
 	<footer>
 		<p>&copy; 2024 AppcityTours Website. Todos los derechos reservados</p>
