@@ -64,3 +64,179 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+```
+AppCityTours
+├─ .editorconfig
+├─ .git
+│  ├─ config
+│  ├─ description
+│  ├─ HEAD
+│  ├─ hooks
+│  │  ├─ applypatch-msg.sample
+│  │  ├─ commit-msg.sample
+│  │  ├─ fsmonitor-watchman.sample
+│  │  ├─ post-update.sample
+│  │  ├─ pre-applypatch.sample
+│  │  ├─ pre-commit.sample
+│  │  ├─ pre-merge-commit.sample
+│  │  ├─ pre-push.sample
+│  │  ├─ pre-rebase.sample
+│  │  ├─ pre-receive.sample
+│  │  ├─ prepare-commit-msg.sample
+│  │  ├─ push-to-checkout.sample
+│  │  ├─ sendemail-validate.sample
+│  │  └─ update.sample
+│  ├─ index
+│  ├─ info
+│  │  └─ exclude
+│  ├─ logs
+│  │  ├─ HEAD
+│  │  └─ refs
+│  │     ├─ heads
+│  │     │  └─ main
+│  │     └─ remotes
+│  │        └─ origin
+│  │           └─ HEAD
+│  ├─ objects
+│  │  ├─ info
+│  │  └─ pack
+│  │     ├─ pack-f10e8a29bf2e6953abc5575be680512b13937f55.idx
+│  │     ├─ pack-f10e8a29bf2e6953abc5575be680512b13937f55.pack
+│  │     └─ pack-f10e8a29bf2e6953abc5575be680512b13937f55.rev
+│  ├─ packed-refs
+│  └─ refs
+│     ├─ heads
+│     │  └─ main
+│     ├─ remotes
+│     │  └─ origin
+│     │     └─ HEAD
+│     └─ tags
+├─ .gitattributes
+├─ .gitignore
+├─ app
+│  ├─ Console
+│  │  └─ Kernel.php
+│  ├─ Exceptions
+│  │  └─ Handler.php
+│  ├─ Http
+│  │  ├─ Controllers
+│  │  │  └─ Controller.php
+│  │  ├─ Kernel.php
+│  │  └─ Middleware
+│  │     ├─ Authenticate.php
+│  │     ├─ EncryptCookies.php
+│  │     ├─ PreventRequestsDuringMaintenance.php
+│  │     ├─ RedirectIfAuthenticated.php
+│  │     ├─ TrimStrings.php
+│  │     ├─ TrustHosts.php
+│  │     ├─ TrustProxies.php
+│  │     ├─ ValidateSignature.php
+│  │     └─ VerifyCsrfToken.php
+│  ├─ Models
+│  │  └─ User.php
+│  └─ Providers
+│     ├─ AppServiceProvider.php
+│     ├─ AuthServiceProvider.php
+│     ├─ BroadcastServiceProvider.php
+│     ├─ EventServiceProvider.php
+│     └─ RouteServiceProvider.php
+├─ artisan
+├─ bootstrap
+│  ├─ app.php
+│  └─ cache
+│     ├─ .gitignore
+│     ├─ packages.php
+│     └─ services.php
+├─ composer.json
+├─ composer.lock
+├─ config
+│  ├─ app.php
+│  ├─ auth.php
+│  ├─ broadcasting.php
+│  ├─ cache.php
+│  ├─ cors.php
+│  ├─ database.php
+│  ├─ filesystems.php
+│  ├─ hashing.php
+│  ├─ logging.php
+│  ├─ mail.php
+│  ├─ permission.php
+│  ├─ queue.php
+│  ├─ sanctum.php
+│  ├─ services.php
+│  ├─ session.php
+│  └─ view.php
+├─ database
+│  ├─ .gitignore
+│  ├─ factories
+│  │  └─ UserFactory.php
+│  ├─ migrations
+│  │  ├─ 2014_10_12_000000_create_users_table.php
+│  │  ├─ 2014_10_12_100000_create_password_reset_tokens_table.php
+│  │  ├─ 2019_08_19_000000_create_failed_jobs_table.php
+│  │  ├─ 2019_12_14_000001_create_personal_access_tokens_table.php
+│  │  └─ 2024_04_24_211628_create_permission_tables.php
+│  └─ seeders
+│     └─ DatabaseSeeder.php
+├─ package-lock.json
+├─ package.json
+├─ phpunit.xml
+├─ public
+│  ├─ .htaccess
+│  ├─ favicon.ico
+│  ├─ index.php
+│  └─ robots.txt
+├─ README.md
+├─ resources
+│  ├─ css
+│  │  ├─ app.css
+│  │  └─ style.css
+│  ├─ js
+│  │  ├─ app.js
+│  │  ├─ bootstrap.js
+│  │  └─ script.js
+│  └─ views
+│     ├─ home.blade.php
+│     └─ welcome.blade.php
+├─ routes
+│  ├─ api.php
+│  ├─ channels.php
+│  ├─ console.php
+│  └─ web.php
+├─ storage
+│  ├─ app
+│  │  ├─ .gitignore
+│  │  └─ public
+│  │     └─ .gitignore
+│  ├─ framework
+│  │  ├─ .gitignore
+│  │  ├─ cache
+│  │  │  ├─ .gitignore
+│  │  │  └─ data
+│  │  │     └─ .gitignore
+│  │  ├─ sessions
+│  │  │  ├─ .gitignore
+│  │  │  ├─ 10mQTXooMuUp8LBqi5uDeJP6V6zQ5r2CvIjzVc18
+│  │  │  └─ m2C1RvnnrQ5Ihe0KsBYJ2Uz6RdhVEgFWeFqWUh7p
+│  │  ├─ testing
+│  │  │  └─ .gitignore
+│  │  └─ views
+│  │     ├─ .gitignore
+│  │     ├─ 1aef618dffa6389469897bf17d5d10f5.php
+│  │     ├─ 5541dfe81eb105d5352a567ffe9111b3.php
+│  │     ├─ 8bb6bc95856caa892e809c9df609dabb.php
+│  │     └─ 972965c3252dc7d22df93b99bc17709a.php
+│  └─ logs
+│     ├─ .gitignore
+│     └─ laravel.log
+├─ tests
+│  ├─ CreatesApplication.php
+│  ├─ Feature
+│  │  └─ ExampleTest.php
+│  ├─ TestCase.php
+│  └─ Unit
+│     └─ ExampleTest.php
+└─ vite.config.js
+
+```

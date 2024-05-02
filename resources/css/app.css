@@ -1,0 +1,31 @@
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: #f8f9fa;
+}
+.header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+.content {
+    padding: 20px;
+}
+.package {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.package img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ 
